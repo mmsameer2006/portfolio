@@ -21,7 +21,7 @@ export const skillGroups = {
 
 // Taken from your resume. `repo` adds a Source code button (GitHub repo name); `demo` adds a Live demo button.
 export const projects = [
-  { title: 'Google Pay Expense Sharing System', // no public GitHub repo yet: add repo: 'name' to show a Source code button
+  { title: 'Google Pay Expense Sharing System', repo: 'Google-pay-Expense-Sharing',
     overview: "Object-oriented Python application inspired by Google Pay split expenses to log shared trip costs, validate payer names and amounts, and compute each person's equal share and net balance. Uses a two-pointer greedy settlement algorithm to minimize payments, settling a ₹4,805 three-person trip in 2 transactions.",
     tech: ['Python', 'OOP', 'Greedy Algorithm', 'Jupyter Notebook'] },
   { title: 'HR Analytics Dashboard', repo: 'HR---Analytics-Dashboard',
